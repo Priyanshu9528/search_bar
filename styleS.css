@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    background: #454545;
+}
+
+
+/* 1st */
+
+.search1 {
+    width: 350px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgb(95, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.search1 input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.search1 .bi {
+    background: linear-gradient(90deg, pink, blue);
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0px 3px 20px #ac45ac;
+    cursor: pointer;
+}
+
+
+/* 2nd */
+
+.search2 {
+    width: 350px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgb(95, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.search2 input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.search2 .bi {
+    background: linear-gradient(90deg, pink, blue);
+    color: #fff;
+    padding: 11px 13px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 3px 20px #ac45ac;
+    cursor: pointer;
+}
+
+
+/* 3d */
+
+.search3 input {
+    padding: 20px 25px;
+    width: 320px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.search3 .bi {
+    background: linear-gradient(90deg, pink, blue);
+    color: #fff;
+    padding: 21px 20px;
+    font-size: 20px;
+    margin-left: -4px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
